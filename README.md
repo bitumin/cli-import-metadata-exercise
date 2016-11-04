@@ -13,7 +13,7 @@ If php cli is globally available in your system, you can run the import command 
 ## Project structure
 
 * **composer.json**         Package manager configuration file
-* **SUMMARY.md**            This file
+* **README.md**            This file
 * **bin/**
     * **import.php**        Import command
 * **config/**
@@ -30,10 +30,6 @@ If php cli is globally available in your system, you can run the import command 
 
 * [symfony/yaml](http://symfony.com/doc/current/components/yaml.html) YAML parser
 * [phpunit/phpunit](https://phpunit.de/) Unit testing
-
-## PHP version
-
-I have written the cli app with maximum compatibility in mind, thus I have avoided the use of PHP7-only features like strict typing or new operators (null coalescing, spaceship...). I have run-test the app successfully with PHP 5.6 and PHP 7 interpreters, but it should be able to run with any interpreter version >= 5.4.
 
 ## Implemented design patterns
 
