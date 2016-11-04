@@ -1,4 +1,4 @@
-# Video Share cli application
+# CLI app - import metadata
 
 ## Usage instructions
 
